@@ -1,5 +1,5 @@
 from typing import Any
-from .storage import add_mark, calculate_one_mean, calculate_all_means, delete_student, WrongInput, add_student, \
+from storage import add_mark, calculate_one_mean, calculate_all_means, delete_student, WrongInput, add_student, \
     print_one_student, print_all_students, check_student_presence
 
 StudentName = tuple[str, str]

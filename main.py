@@ -1,5 +1,5 @@
-from dziennik.storage import WrongInput
-from dziennik.actions import action_delete_student, action_add_student, \
+from storage import WrongInput
+from actions import action_delete_student, action_add_student, \
     action_add_mark, action_calculate_mean, action_print_one_student, action_print_all_students
 
 
